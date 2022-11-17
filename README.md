@@ -69,20 +69,41 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 ```
 
 ## Output:
-### Head:
-![196478925-813e8a4e-b32a-4ef3-b88e-cac875b00d3b](https://user-images.githubusercontent.com/94169318/200601029-b3844ee9-c508-4951-ba0d-84e8ed941789.png)
+### Original data(first five columns):
+![output1](https://user-images.githubusercontent.com/94168395/202351081-a061638b-33e3-4e8a-a476-628db8795873.png)
 
-### Predicted values::
-![196478995-570d7c28-ec74-4a22-a986-b9268447b217](https://user-images.githubusercontent.com/94169318/200601113-f3e2b563-f944-48dd-9c2c-15812bfb3754.png)
+### Data after dropping unwanted columns:
+![output2](https://user-images.githubusercontent.com/94168395/202351147-17439149-7b3d-44fe-869e-a537cf2ae7b6.png)
 
-### Accuracy:
-![196479062-da41501a-7c2d-4702-9a25-44a43772eb02](https://user-images.githubusercontent.com/94169318/200601193-bacc3d7b-e9d9-42b8-969a-be5c3007dc3a.png)
+### null values: 
+![output3](https://user-images.githubusercontent.com/94168395/202351273-1349d8b0-df71-4bd0-90bd-25cfc138f8de.png)
 
-### Confusion Matrix:
-![196479116-ac364f28-141d-43fe-8f5f-ed9b740fbf41](https://user-images.githubusercontent.com/94169318/200601283-146bc567-81dd-474e-92a6-de911309fd49.png)
+### duplicated values:
+![output4](https://user-images.githubusercontent.com/94168395/202351317-8f030551-84a9-4553-abaa-bbf0bd136209.jpg)
 
-### Classification Report:
-![196479205-7da2b9e1-5a0f-40bd-9b3f-eb8fcc6e94e8](https://user-images.githubusercontent.com/94169318/200601368-67a357d9-aa2e-4d37-ba67-98bffd477e16.png)
+### Data after Encoding:
+![output5](https://user-images.githubusercontent.com/94168395/202351369-985f9b55-114c-4cf4-aea6-49340882dd59.jpg)
+
+### X-data:
+![output6](https://user-images.githubusercontent.com/94168395/202351430-09bf7f81-ad19-46be-a86e-b8a374d44340.jpg)
+
+### Y-data:
+![output7](https://user-images.githubusercontent.com/94168395/202351512-0fec7fb6-fd87-4207-86e1-c0dafc37025f.jpg)
+
+### preidcted values:
+![output8](https://user-images.githubusercontent.com/94168395/202351576-106b4916-9c01-4751-850c-830b1f584c53.jpg)
+
+### Accuracy score:
+![output9](https://user-images.githubusercontent.com/94168395/202351638-b5e1d891-4a79-4a6e-ae80-ced96af74b35.jpg)
+
+### Confusion matrix:
+![output10](https://user-images.githubusercontent.com/94168395/202351684-61f984be-33aa-40ba-9d4c-f5cfd0babc98.jpg)
+
+### Clasification:
+![output11](https://user-images.githubusercontent.com/94168395/202351742-20f792d2-8111-4659-a6ed-ae4d42153537.jpg)
+
+### predicting output from regression model:
+![output12](https://user-images.githubusercontent.com/94168395/202351784-d4257516-f545-4988-8d9d-d903cfc29b14.jpg)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
